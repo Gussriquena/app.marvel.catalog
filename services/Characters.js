@@ -2,14 +2,15 @@ import { https } from './Connection';
 import { APIKEY, HASH } from './config'
 
 export default {
-    listCharacters: () =>{
+    listCharacters: (characterName) =>{
         return https.get('characters', {
             params: {
-                nameStartsWith: 'spider',
+                nameStartsWith: characterName,
                 orderBy: 'name',
                 apikey: APIKEY,
                 hash: HASH,
-                ts: '1'
+                ts: '1',
+                limit: '100'
             }
         })
     }
