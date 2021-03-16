@@ -3,9 +3,9 @@ Vue.js web application to show marvel characters catalog
 
 To run this project you will need:
 
-have vue.js and axios on your environment
-Create an account on marvel api oficial website
-Have your api key and hash that you got on marvel website
+ - have vue.js and axios on your environment
+ - Create an account on marvel api oficial website
+ - Have your api key and hash that you got on marvel website
 
 ### Warning!
 
