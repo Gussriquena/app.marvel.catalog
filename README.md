@@ -13,5 +13,7 @@ add config.js file on "services repository"
 
 On this file you will put your api key and marvel hash, exactly as the code below
 
-```export const APIKEY = atob('your base64 apikey');
-export const HASH = atob('your base64 hash')```
+```JavaScript
+export const APIKEY = atob('your base64 apikey');
+export const HASH = atob('your base64 hash')
+```
