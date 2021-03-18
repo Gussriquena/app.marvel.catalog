@@ -9,7 +9,7 @@ To run this project you will need:
 
 ### Warning!
 
-add config.js file on "services repository"
+add config.js file on "services" repository
 
 On this file you will put your api key and marvel hash, exactly as the code below
 
